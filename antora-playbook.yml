@@ -1,7 +1,7 @@
 site:
   title: Forklift documentation
   url: https://example.com
-  # start_page: antora-test:modules:index.adoc
+  start_page: forklift::index.adoc
 content:
   sources:
   # - url: https://gitlab.com/antora/demo/demo-component-a.git
@@ -11,7 +11,7 @@ content:
   #   start_path: docs
   - url: ./
     branches: HEAD
-    start_path: modules
+    start_path: forklift
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable

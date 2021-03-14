@@ -1,0 +1,5 @@
+= Installing and using {project-full}
+
+Welcome to Forklift
+
+include::partials$mtv-resources-and-services.adoc[leveloffset=+1]

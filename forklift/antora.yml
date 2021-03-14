@@ -1,0 +1,6 @@
+name: forklift
+title: Forklift documentation
+version: latest
+# start_ROOT: ROOT:index.adoc
+nav:
+- modules/ROOT/nav.adoc
