@@ -1,5 +1,5 @@
-name: Welcome
-title: Welcome
+name: Forklift documentation
+title: Forklift documentation
 version: latest
 start_ROOT: ROOT:index.adoc
 nav:

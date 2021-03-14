@@ -1,5 +1,5 @@
 site:
-  title: Welcome
+  title: Forklift documentation
   url: https://example.com
   # start_page: antora-test:modules:index.adoc
 content:
@@ -19,23 +19,24 @@ ui:
 
 asciidoc:
   attributes:
-    title:   Installing and using Forklift
-    context:   forklift
-    description:   Migrating virtual machines to KubeVirt
-    abstract:   Forklift enables you to migrate virtual machines to {virt} running on {ocp}.
-    keywords:   migration, VMware, OpenShift Virtualization, KubeVirt
-    author:   Red Hat Modernization and Migration Solutions documentation team
-    build:   upstream
-    imagesdir:   ../modules/images
-    project-short:   Forklift
-    project-full:   Forklift
-    project-first:   Forklift
+    title: Installing and using Forklift
+    context: forklift
+    description: Migrating virtual machines to KubeVirt
+    abstract: Forklift enables you to migrate virtual machines to {virt} running on {ocp}.
+    keywords: migration, VMware, OpenShift Virtualization, KubeVirt
+    author: Red Hat Modernization and Migration Solutions documentation team
+    build: upstream
+    imagesdir: ../modules/images
+    project-short: Forklift
+    project-full: Forklift
+    project-first: Forklift
     the-lc:
     The:
-    project-version:   2.0-beta
-    virt:   KubeVirt
-    ocp:   OKD
-    ocp-version:   4.7
-    ocp-short:   OKD
-    operator:   forklift-operator
-    namespace:   konveyor-forklift
+    project-version: 2.0-beta
+    virt: KubeVirt
+    ocp: OKD
+    ocp-version: 4.7
+    ocp-short: OKD
+    operator: forklift-operator
+    namespace: konveyor-forklift
+    mod-loc: partials$

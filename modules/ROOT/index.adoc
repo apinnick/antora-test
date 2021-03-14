@@ -1,6 +1,26 @@
-[id="welcome"]
-= Welcome
+= Installing and using {project-full}
+ifeval::["{build}" == "downstream"]
+= {title}
+endif::[]
+ifeval::["{build}" == "upstream"]
+= {title} ({project-version})
+endif::[]
+:toc:
+:toc-title:
+:toclevels: 3
+:compat-mode:
+:context: mtv
+:mtv:
 
-Hello world
+ifeval::["{build}" == "downstream"]
+include::modules/making-open-source-more-inclusive.adoc[]
+endif::[]
 
-include::partial$about-storage.adoc[leveloffset=+1]
+[id="about-mtv_{context}"]
+== About {the-lc} {project-full}
+
+{the} {project-first} enables you to migrate virtual machines from VMware 6.5, and later, to {virt}.
+
+{virt} is an add-on to {ocp} {ocp-version} that allows you to run and manage virtual machine workloads alongside container workloads.
+
+include::{mod-loc}mtv-resources-and-services.adoc[leveloffset=+2]
