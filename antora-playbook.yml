@@ -1,0 +1,41 @@
+site:
+  title: Welcome
+  url: https://example.com
+  # start_page: antora-test:modules:index.adoc
+content:
+  sources:
+  # - url: https://gitlab.com/antora/demo/demo-component-a.git
+  #   branches: master
+  # - url: https://gitlab.com/antora/demo/demo-component-b.git
+  #   branches: [v2.0, v1.0]
+  #   start_path: docs
+  - url: ./
+    branches: HEAD
+    start_path: modules
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+asciidoc:
+  attributes:
+    title:   Installing and using Forklift
+    context:   forklift
+    description:   Migrating virtual machines to KubeVirt
+    abstract:   Forklift enables you to migrate virtual machines to {virt} running on {ocp}.
+    keywords:   migration, VMware, OpenShift Virtualization, KubeVirt
+    author:   Red Hat Modernization and Migration Solutions documentation team
+    build:   upstream
+    imagesdir:   ../modules/images
+    project-short:   Forklift
+    project-full:   Forklift
+    project-first:   Forklift
+    the-lc:
+    The:
+    project-version:   2.0-beta
+    virt:   KubeVirt
+    ocp:   OKD
+    ocp-version:   4.7
+    ocp-short:   OKD
+    operator:   forklift-operator
+    namespace:   konveyor-forklift

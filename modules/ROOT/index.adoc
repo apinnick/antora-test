@@ -1,0 +1,6 @@
+[id="welcome"]
+= Welcome
+
+Hello world
+
+include::partial$about-storage.adoc[leveloffset=+1]
